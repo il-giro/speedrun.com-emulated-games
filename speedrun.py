@@ -88,7 +88,7 @@ if __name__ == "__main__":
     open_google_window()
 
 if __name__ == "__main__":
-
+#HERE YOU CAN CHANCE THE NUMBER OF TIME THE SCRIPT RUN
     cycles = 1
 
     for i in range(cycles-1):
