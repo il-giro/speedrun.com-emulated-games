@@ -1,3 +1,4 @@
+#THIS CODE SORT THE 2 FILES CALLED "emu.txt" AND "no_emu.txt"
 # Read the file and create a list of tuples
 with open('emu.txt', 'r') as file:
     lines = [line.strip().split(' ') for line in file]
