@@ -11,8 +11,8 @@ The answer is no unluckily 😢
 
 ## The 2 txt files
 
-The two **text** files are not complete yet, but are a tentative list of some games respectively with banned emulators or not. <br>(no emu.txt  &&  emu.txt)<br>
-The two rows are sorted in descending order according to the number of players in the game.<br>
+The two **text** files are not complete yet, but are a tentative list of some games respectively with banned emulators or not. <br>(`no_emu.txt`  &&  `emu.txt`)<br>
+The rows are sorted in descending order according to the number of players in the game.<br>
 The structure of each row of the file is as follows: { number of players } { game name (found in the link)} { game link }<br>
 Each time you use the script the file will automatically update.<br>
 
@@ -23,7 +23,10 @@ Each time you use the script the file will automatically update.<br>
 
 The two **bat** files automatically execute the corresponding script, as long as the files are in the same directory.
 
-# How to actually use The script
-First make sure that Python 3.0+ is installed on your device, then download the files and run them with the respective .bat file <br>
-Every time we run speedrun.py a new random game will be added to the list **but not in order**, whenever we want to read the list or modify it we can run sort.py<br>
+# How to actually use the script
+First make sure that Python 3.0+ is installed on your device, then download the files and run them with the respective .bat file. <br>
+Every time we run `speedrun.py` a new random game will be added to the list **but not in order**, whenever we want to read the list or modify it we can run `sort.py`.<br>
 You can change the, initially initialized, "cycles" variable to change the number of times the script will run, each time the script will run it will print the loop number in the cmd to keep track of where it arrived.
+
+
+> pls report any issues ty
